@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34316.72
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeberAgua.Android", "BeberAgua\BeberAgua.Android\BeberAgua.Android.csproj", "{5795D7C3-3971-4F3D-A1E2-9266EE0B2C50}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BeberAgua", "BeberAgua\BeberAgua\BeberAgua.csproj", "{1B2BABEC-9163-45C2-BCB9-9018ED922E61}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5795D7C3-3971-4F3D-A1E2-9266EE0B2C50}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5795D7C3-3971-4F3D-A1E2-9266EE0B2C50}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5795D7C3-3971-4F3D-A1E2-9266EE0B2C50}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5795D7C3-3971-4F3D-A1E2-9266EE0B2C50}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5795D7C3-3971-4F3D-A1E2-9266EE0B2C50}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5795D7C3-3971-4F3D-A1E2-9266EE0B2C50}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{1B2BABEC-9163-45C2-BCB9-9018ED922E61}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1B2BABEC-9163-45C2-BCB9-9018ED922E61}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1B2BABEC-9163-45C2-BCB9-9018ED922E61}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{1B2BABEC-9163-45C2-BCB9-9018ED922E61}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1B2BABEC-9163-45C2-BCB9-9018ED922E61}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1B2BABEC-9163-45C2-BCB9-9018ED922E61}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {87640D51-DF96-4CA8-90DB-FC77E5B792FF}
+	EndGlobalSection
+EndGlobal

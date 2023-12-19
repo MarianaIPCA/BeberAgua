@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+    <!--Página Início-->
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeberAgua.Views.AboutPage"
+             xmlns:vm="clr-namespace:BeberAgua.ViewModels"
+             Title="Início">
+    
+    <ContentPage.BindingContext>
+        <vm:AboutViewModel />
+    </ContentPage.BindingContext>
+
+    
+    <ContentPage.Content>
+        
+        
+        <StackLayout>
+
+            <StackLayout VerticalOptions="Center" HorizontalOptions="Center" Margin="0,50,0,0">
+                <Image Source="gota.png"
+                       Aspect="AspectFit"
+                       WidthRequest="200"
+                       HeightRequest="200" />
+         
+            </StackLayout>
+
+            <!--Botão adicionar bebida-->
+            <Label Text="Adicionar bebida" VerticalOptions="Center" HorizontalOptions="Center" FontSize="16" Margin="0,100,0,0"/>
+            <Image Source="add.png"
+                   Aspect="AspectFit"
+                   VerticalOptions="Center"
+                   HorizontalOptions="CenterAndExpand"
+                   WidthRequest="50"
+                   HeightRequest="50">
+                <Image.GestureRecognizers>
+                    <TapGestureRecognizer Tapped="OnImageButtonTapped" />
+                </Image.GestureRecognizers>
+            </Image>
+
+            
+
+            
+
+        </StackLayout>
+    </ContentPage.Content>
+
+</ContentPage>

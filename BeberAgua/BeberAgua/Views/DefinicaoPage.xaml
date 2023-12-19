@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="BeberAgua.Views.DefinicaoPage">
+
+    <StackLayout VerticalOptions="CenterAndExpand" HorizontalOptions="CenterAndExpand">
+        <!-- StackLayout para Notificações -->
+        <StackLayout Orientation="Horizontal" VerticalOptions="Start">
+            <!-- Label para exibir o texto "Notificações" -->
+            <Label Text="Notificações" FontSize="24" VerticalOptions="Start" />
+
+            <!-- Switch para ligar/desligar a notificação -->
+            <Switch Toggled="OnNotificationToggled" />
+        </StackLayout>
+
+        <!-- Título "Informações Pessoais" com margem para adicionar espaço -->
+        <Label Text="Informações Pessoais:" FontSize="24" VerticalOptions="Center" HorizontalOptions="Center" Margin="0,30,0,0" />
+
+        <!-- Rótulos e Switch para informações pessoais -->
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+                <RowDefinition Height="Auto" />
+            </Grid.RowDefinitions>
+
+            <Label x:Name="NomeLabel" FontSize="18" Text="Nome:" Grid.Row="0" />
+            <Switch x:Name="NomeSwitch" Grid.Row="0" />
+
+            <Label x:Name="IdadeLabel" FontSize="18" Text="Idade:" Grid.Row="1" />
+            <Switch x:Name="IdadeSwitch" Grid.Row="1" />
+
+            <Label x:Name="PesoLabel" FontSize="18" Text="Peso:" Grid.Row="2" />
+            <Switch x:Name="PesoSwitch" Grid.Row="2" />
+        </Grid>
+
+        <!-- Botão para guardar as alterações -->
+        <Button Text="Guardar" Clicked="OnEditarClicked" VerticalOptions="CenterAndExpand" HorizontalOptions="Center" />
+    </StackLayout>
+</ContentPage>
